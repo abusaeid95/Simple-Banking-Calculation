@@ -1,0 +1,69 @@
+body{
+    border: solid blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+.h1-color{
+    text-align: center;
+    color: rgb(115, 18, 226);
+}
+.h2-tag{
+    text-align: center;
+}
+.display-calculation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.diposit{
+    background-color: aqua;
+    padding: 11px 106px 19px 104px
+}
+.withdraw{
+    background-color: rgb(0, 255, 13);
+    padding: 11px 106px 19px 104px
+}
+.balance{
+    background-color: rgb(174, 0, 255);
+    padding: 11px 106px 19px 104px
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diposit-order{
+    margin-right: 30px;
+    background-color: rgb(255, 0, 179);
+    padding: 40px 136px 88px 135px;
+    
+}
+.withdraw-order{
+    background-color: rgb(255, 0, 64);
+    padding: 40px 136px 88px 135px;
+}
+main{
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius: 5px;
+}
+.diposit p {
+    display: inline;
+}
+.withdraw p{
+    display: inline;
+}
+.balance p {
+    display: inline;
+}

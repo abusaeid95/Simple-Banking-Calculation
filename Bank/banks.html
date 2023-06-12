@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Banking</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <main>
+        <h2 class="h2-tag">Regular <span class="h1-color">Bank Statement!!</span></h2>
+        <section class="display-calculation">
+            <!-- Diposite -->
+            <div class="diposit">
+                <h3>Diposite</h3>
+                <h3 >$<p id="diposit-dis"></p ></h3>
+            </div>
+            <div class="withdraw">
+                <h3>Withdraw</h3>
+                <h3>$<p id="withdraw-dis"></p></h3>
+            </div>
+            <div class="balance">
+                <h3>Balance</h3>
+                <h3>$<p id="balance-dis"></p></h3>
+            </div>
+        </section>
+        <section class="input-section">
+            <div class="diposit-order">
+                <h3>Please Diposite</h3>
+                <input type="number" name="" id="diposit-in">
+                <br>
+                <button onclick="makeDiposit()" class="btn" type="submit" >Diposite</button>
+            </div>
+            <div class="withdraw-order">
+                <h3>Please Withdraw</h3>
+                <input type="number" name="" id="withdraw-in">
+                <br>
+                <button onclick="makeWithdraw()" class="btn" type="submit" >Withdraw</button>
+            </div>
+        </section>
+    </main>
+    <script src="bank.js"></script>
+</body>
+</html>
