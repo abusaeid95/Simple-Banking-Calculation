@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(142, 218, 191);
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.main-container div h2{
+    text-align: center;
+}
+.main-container div input{
+    display:block;
+    padding-left: 80px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.main-container div button{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 74px;
+    border-radius: 10px;
+}

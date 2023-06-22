@@ -11,6 +11,7 @@ function getInputValues (inputId){
     }
     }
     
+    
     function makeDiposit(){
       const getCurrentDiposit = getInputValues('diposit-in')
       const displayDiposit = document.getElementById('diposit-dis')

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Bank!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="container flex items-stretch mx-auto my-10">
+        <div class="basis-4/12 flex-row py-20 bg-cyan-100 text-center text-lg">
+            <h3>Diposit</h3>
+            <p>$<span id="diposit-dis">00</span></p>
+        </div>
+        <div class="basis-4/12 flex-row py-20 bg-lime-200 mx-12 text-center text-lg">
+            <h3>Withdraw</h3>
+            <p>$<span id="withdraw-dis">00</span></p>
+        </div>
+        <div class="basis-4/12 w-33 py-20 bg-green-200 text-center text-lg">
+            <h3>Balance</h3>
+            <p>$<span id="balance-dis">00</span></p>
+        </div>
+    </section>
+        
+    <section  class="container flex items-stretch mx-auto">
+        <div class="basis-6/12 flex-row py-20 bg-blue-300 text-center text-lg mx-12">
+            <input type="number" name="" id="diposit-in" class="w-50 rounded-lg">
+            <button class="rounded-lg border-4 border-bg-pink-600 bg-orange-50" type="submit" onclick="makeDiposit()">Diposit</button>
+        </div>
+        <div class="basis-6/12 py-20 bg-blue-300 text-center text-lg me-10">
+            <input type="number" name="" id="withdraw-in" class="w-50 rounded-lg">
+            <button class="rounded-lg border-4 border-4 border-bg-pink-600 bg-orange-50" type="submit" onclick="makeWithdraw()">Withdraw</button>
+        </div>
+    </section>
+    <script src="bank.js"></script>
+</body>
+</html>
